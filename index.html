@@ -1,0 +1,77 @@
+<html>
+    <head>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        @keyframes blink-animation {
+            to {
+                color: red;
+            }
+        }
+
+        @-webkit-keyframes blink-animation {
+            to {
+                color: red;
+            }
+        }
+
+        #beep { 
+            -webkit-animation: blink-animation 0.5s steps(15, start) 4;
+            animation: blink-animation 0.5s steps(15, start) 4;
+            -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+            color: #444;
+        }
+
+        html {
+            background-color: #222;
+            color: #eee;
+        }
+
+        textarea {
+            background: #444;
+            width: 100%;
+        }
+
+        button {
+            background-color: #080;
+            border: 3px solid #080;
+            border-radius: 3px;
+        }
+
+        .disclaimer {
+            font-size: smaller;
+        }
+
+        #header {
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        .twitter-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+
+    </head>
+    <body>
+        <div id="header">
+            <p>
+                You have reached my personal GitHub page. I am not in right now, but if you leave a message after the beep, I'll get back to you as soon as I can.
+            </p>
+            <p id="beep">BEEP</p>
+            <p style="display:flexbox;">
+            <form>
+                <textarea name="text"></textarea><br/>
+                <button type="button" onclick="window.location = 'https://wizard.vermiliontower.com/'">End Message</button>
+                <div class="disclaimer">(These messages are not transmitted to anywhere. It's just a box you can type whatever you want into.)</div>
+            </form>
+            </p>
+        </div>
+        <hr/>
+        <div class="twitter-container">
+            <a class="twitter-timeline" data-lang="en" data-theme="dark" href="https://twitter.com/vermiliontower?ref_src=twsrc%5Etfw">Tweets by vermiliontower</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        </div>
+    </body>
+</html>
