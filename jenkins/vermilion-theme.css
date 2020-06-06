@@ -7,6 +7,7 @@
 }
 #jenkins .top-sticker-inner {
     background-color: #e34234;
+    color: white;
 }
 
 #jenkins .bigtable th {
@@ -15,4 +16,8 @@
 
 #jenkins a:link {
     color: #f36254;
+}
+
+#jenkins #breadcrumbs LI A:hover, #crumbs LI A:focus {
+    color: white;
 }
