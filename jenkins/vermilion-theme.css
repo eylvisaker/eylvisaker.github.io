@@ -1,4 +1,18 @@
 #jenkins {
     background-color: #222222;
-    color: #eeeeee;
+}
+
+#jenkins body,table,form,td,th,p {
+    color: #aaa;
+}
+#jenkins .top-sticker-inner {
+    background-color: #e34234;
+}
+
+#jenkins .bigtable th {
+    background-color: #e34234;
+}
+
+#jenkins a:link {
+    color: #f36254;
 }
