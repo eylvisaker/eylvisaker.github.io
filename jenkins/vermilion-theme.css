@@ -22,11 +22,11 @@
     color: white;
 }
 
-#jenkins .pane-frame {
+#jenkins .pane-header {
     background-color: #e34234;
     color: white;
 }
 
-#jenkins .pane-frame a:link {
+#jenkins .pane-header a:link {
     color: white;
 }
