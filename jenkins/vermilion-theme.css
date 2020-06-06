@@ -9,22 +9,47 @@
     background-color: #e34234;
     color: white;
 }
+#jenkins .top-sticker-inner a:link {
+    color: white;
+}
 
 #jenkins .bigtable th {
     background-color: #e34234;
+}
+
+#jenkins table.sortable a.sortheader {
+    color: white;
 }
 
 #jenkins a:link {
     color: #f36254;
 }
 
-#jenkins #breadcrumbs LI A:hover, #jenkins #crumbs LI A:focus {
+#jenkins #breadcrumbs LI A, #jenkins #breadcrumbs LI A:hover, #jenkins #crumbs LI A:focus {
+    color: white;
+}
+
+#jenkins #breadcrumbs LI A:hover {
+}
+
+#jenkins #breadcrumbs LI:hover {
+    background-color: #e34234; 
+    border: 1px solid white;
+    border-bottom: #e34234;
+    border-radius: 4px 4px 0 0;
+    
+}
+
+#jenkins .pane-frame {
+    border-color: #e34234;
+    border-radius: 8px 8px 22px 4px;    
     color: white;
 }
 
 #jenkins .pane-header {
     background-color: #e34234;
     color: white;
+    border: none;
 }
 
 #jenkins .pane-header a:link {
@@ -32,6 +57,20 @@
 }
 
 #jenkins .tabBar [type="radio"]:checked ~a  {
+    border: 1px solid #e34234;
+    border-bottom: none;
     background-color: #e34234;
     color: white;
+}
+
+#jenkins .tabBar .tab a.addTab {
+    border: 1px solid #e34234;
+}
+
+#jenkins #projectstatus .header {
+    border-bottom: 1px solid #e34234;
+}
+
+#jenkins table.stripped-odd tr:nth-child(2n+1) {
+    background: transparent;
 }
