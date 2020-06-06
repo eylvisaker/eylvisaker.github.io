@@ -30,3 +30,8 @@
 #jenkins .pane-header a:link {
     color: white;
 }
+
+#jenkins .tabBar [type="radio"]:checked ~a  {
+    background-color: #e34234;
+    color: white;
+}
