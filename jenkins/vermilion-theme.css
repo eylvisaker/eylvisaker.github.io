@@ -21,3 +21,8 @@
 #jenkins #breadcrumbs LI A:hover, #crumbs LI A:focus {
     color: white;
 }
+
+#jenkins .pane-frame {
+    background-color: #e34234;
+    color: white;
+}
