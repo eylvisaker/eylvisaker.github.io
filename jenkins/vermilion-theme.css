@@ -18,11 +18,15 @@
     color: #f36254;
 }
 
-#jenkins #breadcrumbs LI A:hover, #crumbs LI A:focus {
+#jenkins #breadcrumbs LI A:hover, #jenkins #crumbs LI A:focus {
     color: white;
 }
 
 #jenkins .pane-frame {
     background-color: #e34234;
+    color: white;
+}
+
+#jenkins .pane-frame a:link {
     color: white;
 }
