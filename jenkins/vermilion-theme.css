@@ -3,8 +3,20 @@
 }
 
 #jenkins body,table,form,td,th,p {
+    font-family: Open Sans, sans-serif;
     color: #aaa;
 }
+
+#jenkins a:link {
+    color: #f36254;
+    text-decoration: none;
+}
+
+#jenkins a:visited {
+    color: #d33224;
+}
+
+
 #jenkins .top-sticker-inner {
     background-color: #e34234;
     color: white;
@@ -21,8 +33,8 @@
     color: white;
 }
 
-#jenkins a:link {
-    color: #f36254;
+#jenkins #breadcrumbs {
+    border-bottom: none;
 }
 
 #jenkins #breadcrumbs LI A, #jenkins #breadcrumbs LI A:hover, #jenkins #crumbs LI A:focus {
@@ -73,4 +85,8 @@
 
 #jenkins table.stripped-odd tr:nth-child(2n+1) {
     background: transparent;
+}
+
+#jenkins #visible-am-button {
+    color: white;
 }
