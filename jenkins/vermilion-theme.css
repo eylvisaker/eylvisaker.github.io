@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Germania One";
+    src: url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #jenkins {
     background-color: #222222;
 }
@@ -6,6 +13,10 @@
 #jenkins body,table,form,td,th,p {
     font-family: Open Sans, sans-serif;
     color: #aaa;
+}
+
+h1,h2,h3 {
+    font-family: Germania One;
 }
 
 body#jenkins {
@@ -45,14 +56,6 @@ body#jenkins {
 #jenkins footer {
     background: #222;
     border: none;
-}
-
-#jenkins .bigtable th {
-    background-color: #e34234;
-}
-
-#jenkins table.sortable a.sortheader {
-    color: white;
 }
 
 /* ---- INPUT ---- */
@@ -210,6 +213,24 @@ DIV.textarea-handle {
 
 /*--- End Breadcrumbs --================================================================-- */
 
+/*--- Tables --================================================================-- */
+
+
+#jenkins .bigtable tr.header th {
+    background: #e34234;
+}
+
+#jenkins .bigtable tr.header th:first-child {
+    border-radius: 0; 
+}
+
+#jenkins .bigtable tr.header th:last-child {
+    border-radius: 2px 30px 0 0; 
+}
+
+#jenkins table.sortable a.sortheader {
+    color: white;
+}
 
 #jenkins .tabBar [type="radio"]:checked ~a  {
     border: 1px solid #e34234;
@@ -226,20 +247,30 @@ DIV.textarea-handle {
     border-bottom: 1px solid #e34234;
 }
 
-#jenkins table.stripped tr:nth-child(2n) {
-    background: #333333;
-}
-
-#jenkins table.stripped tr:nth-child(2n+1) {
+#jenkins table.stripped tr, #jenkins table.stripped-odd tr, #jenkins table.stripped-even tr {
     background: transparent;
 }
 
-#jenkins table.stripped-odd tr:nth-child(2n) {
+#jenkins table.stripped tr:last-child td:first-child,
+#jenkins #projectstatus tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 24px;
+}
+
+
+#jenkins table.stripped tr:nth-child(2n) td {
     background: #333333;
 }
 
-#jenkins table.stripped-odd tr:nth-child(2n+1) {
-    background: transparent;
+#jenkins table.stripped tr:nth-child(2n+1) td {
+    background: #222222;
+}
+
+#jenkins table.stripped-odd tr:nth-child(2n) td {
+    background: #333333;
+}
+
+#jenkins table.stripped-odd tr:nth-child(2n+1) td {
+    background: #222222;
 }
 
 #jenkins table.stripped tr:hover, #jenkins table.stripped-even tr:hover, #jenkins table.stripped-odd tr:hover {
@@ -248,8 +279,9 @@ DIV.textarea-handle {
 
 #jenkins #visible-am-button {
     color: white;
-    
 }
+
+/*--- END Tables --================================================================-- */
 
 
 /*---- TASKS --======================================================================-- */
@@ -311,6 +343,10 @@ DIV.textarea-handle {
 
 #jenkins .pane-header a:link {
     color: white;
+}
+
+#jenkins .pane-content {
+    padding: 0 12px 4px;
 }
 
 #jenkins .pane-footer {
