@@ -285,6 +285,10 @@ DIV.textarea-handle {
     color: white;
 }
 
+#pipeline-box .table-box tr td.IN_PROGRESS .duration {
+    color: #ccc;
+}
+
 /*--- END Tables --================================================================-- */
 
 
