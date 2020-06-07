@@ -192,7 +192,15 @@ DIV.textarea-handle {
     background: #141;
 }
 
-/*--- Managing options --========================================================================================================================-- */
+/*--- End Managing options --========================================================================================================================-- */
+
+/*--- Breadcrumbs ----- */
+
+#jenkins #breadcrumbs LI {
+    background-color: #e34234; 
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
 
 #jenkins #breadcrumbBar, #jenkins #footer-container, #jenkins .top-sticker-inner {
     background-color: e34234;
@@ -211,12 +219,18 @@ DIV.textarea-handle {
 }
 
 #jenkins #breadcrumbs LI:hover {
-    background-color: #e34234; 
     border: 1px solid white;
     border-bottom: #e34234;
     border-radius: 4px 4px 0 0;
     
 }
+
+#jenkins #breadcrumbs LI:hover, #jenkins A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
+    background-color: transparent;
+}
+
+/*--- End Breadcrumbs --================================================================-- */
+
 
 #jenkins .pane-frame {
     border-color: #e34234;
