@@ -193,3 +193,51 @@ body#jenkins {
 }
 
 /*---- END RSS LINKS --- */
+
+/*---- PIPELINE BOX ---- */
+
+#jenkins #pipeline-box .table-box tr td {
+    text-shadow: #000 0 1px 1px, #000 0 1px 2px;
+}
+#jenkins .jobsTable .stage-cell.FAILED .stage-wrapper {
+    text-shadow: #000 0 1px 1px, #000 0 1px 2px;
+}
+#jenkins #pipeline-box .table-box .table-viewPort tr.totals .cell-color {
+    color: white;
+    text-shadow: #000 0 1px 1px, #000 0 1px 2px;    
+}
+
+#jenkins #pipeline-box .table-box .table-viewPort .stage-wrapper {
+    border: 1px solid #ada;
+}
+
+#jenkins #pipeline-box .table-box {
+    color: #fff;    
+}
+
+#jenkins .jobsTable .jobName .badge {
+    background: #e34234;
+}
+#jenkins .jobsTable .jobName .badge a:link {
+    color: white;
+}
+#jenkins .jobsTable .jobName .badge a:visited {
+    color: white;
+}
+
+#jenkins #pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-start-time {
+    border: none;
+}
+#jenkins .jobsTable .stage-start-time .date {
+    background: #111;
+}
+#jenkins .jobsTable .stage-start-time .time {
+    background: #000;
+}
+#jenkins .changeset-box.no-changes {
+    text-shadow: #000 0 1px 1px, #000 0 1px 2px;
+}
+
+/*---- END PIPELINE BOX ---- */
+
+
