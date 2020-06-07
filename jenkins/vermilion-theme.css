@@ -83,7 +83,7 @@ body#jenkins {
     color: yellow;       
     border: 1px solid white;
     border-radius: 4px;
-    box-shadow: 0 0 5px #e34234 inset
+    : 0 0 5px #e34234 inset
 }
 
 #jenkins #search-box {
@@ -157,6 +157,30 @@ DIV.textarea-handle {
     background-color: rgb(180, 50, 50, 0.3);
     color: #f9a4a2;
 }
+
+#jenkins #visible-am-container div#visible-am-list {
+    background: #333;
+    border-radius: 40px;
+    left: 10%;
+    right: 10%;
+    border: 4px ridge #444;
+    box-shadow: 0 0 25px #e34234 ;
+}
+
+#jenkins #visible-am-container div#visible-am-list p:last-child a {
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    background-color: #e34234;
+    padding: 8px 24px;
+    border-radius: 12px;
+}
+
+#jenkins #visible-am-container div#visible-am-list p:last-child a:hover {
+    background: #f36254;
+}
+    
+
 /*---- End Alerts --===========================================================================================================================-- */
 
 /*--- Managing options ---- */
@@ -253,6 +277,7 @@ DIV.textarea-handle {
 
 #jenkins #visible-am-button {
     color: white;
+    
 }
 
 
