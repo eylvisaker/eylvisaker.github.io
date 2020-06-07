@@ -18,27 +18,6 @@ body#jenkins {
     margin-bottom: 40px;
 }
 
-#jenkins #tasks {
-    display: block;
-    padding: 4px 12px 4px;
-    border: 4px;
-    border-radius: 4px 24px 4px 24px;
-}
-
-#jenkins #tasks .task {
-    border-bottom: 1px solid #f36254;
-    margin-bottom: 0px;
-    padding: 2px 0;
-}
-
-#jenkins #tasks .task:last-child {
-    border-bottom: none;
-}
-
-#jenkins #tasks .task:hover {
-    background: #f36254;
-}
-
 #jenkins a:link {
     color: #f36254;
     text-decoration: none;
@@ -232,28 +211,6 @@ DIV.textarea-handle {
 /*--- End Breadcrumbs --================================================================-- */
 
 
-#jenkins .pane-frame {
-    border-color: #e34234;
-    border-radius: 8px 8px 22px 4px;    
-    color: white;
-}
-
-#jenkins .pane-header {
-    background-color: #e34234;
-    color: white;
-    border: none;
-}
-
-#jenkins .pane-header a:link {
-    color: white;
-}
-
-#jenkins .pane-footer {
-    background-color: #333;
-    border-top: none;
-    border-radius: 0 0 22px 4px;
-}
-
 #jenkins .tabBar [type="radio"]:checked ~a  {
     border: 1px solid #e34234;
     border-bottom: none;
@@ -295,9 +252,29 @@ DIV.textarea-handle {
 }
 
 
-/*---- TASKS ---- */
+/*---- TASKS --======================================================================-- */
+
 #jenkins #tasks {
-    background: #e34234;
+    display: block;
+    padding: 4px 12px 4px;
+    border: 4px solid #e34234;
+    border-radius: 4px 24px 4px 24px;
+}
+
+#jenkins #tasks .task {
+    border-bottom: 1px solid #f36254;
+    margin-bottom: 0px;
+    padding: 2px 0;
+}
+
+#jenkins #tasks .task:last-child {
+    border-bottom: none;
+}
+
+#jenkins #tasks .task:hover {
+    background: #f36254;
+}
+#jenkins #tasks {
 }
 
 #jenkins #tasks a:link {
@@ -309,8 +286,47 @@ DIV.textarea-handle {
     color: white;
 }
 
-/*---- END TASKS ---- */
+/*---- END TASKS -==========================================================================--- */
 
+/*---- Left Pane Frames --======================================================================-- */
+
+#jenkins .pane-frame {
+    border: 2px solid #e34234;
+    border-radius: 4px 24px 4px 24px;
+    color: white;
+}
+
+#jenkins .pane-frame:hover, #jenkins #side-panel .pane-frame.mouseover {
+    border: 2px solid #e34234;
+    border-radius: 4px 24px 4px 24px;
+    color: white;
+}
+
+#jenkins .pane-header {
+    background-color: #e34234;
+    color: white;
+    border: none;
+    border-radius: 0px 20px 0 0;
+}
+
+#jenkins .pane-header a:link {
+    color: white;
+}
+
+#jenkins .pane-footer {
+    background-color: #333;
+    border-top: none;
+    border-radius: 0 0 2px 22px;
+}
+
+#jenkins #buildHistoryPageNav.mouseOverSidePanel, 
+#jenkins #buildHistoryPageNav.mouseOverSidePanelBuildHistory, 
+#jenkins #buildHistoryPageNav:hover {
+    border-color: #e34234 !important;
+    border-left: blue;
+}
+
+/*---- END Left Pane Frames --======================================================================-- */
 
 /*---- RSS LINKS --- */
 
