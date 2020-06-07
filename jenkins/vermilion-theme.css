@@ -285,10 +285,6 @@ DIV.textarea-handle {
     color: white;
 }
 
-#pipeline-box .table-box tr td.IN_PROGRESS .duration {
-    color: #ccc;
-}
-
 /*--- END Tables --================================================================-- */
 
 
@@ -428,6 +424,14 @@ DIV.textarea-handle {
 }
 #jenkins .changeset-box.no-changes {
     text-shadow: #000 0 1px 1px, #000 0 1px 2px;
+}
+
+#pipeline-box .table-box tr td.IN_PROGRESS .duration {
+    color: #ccc;
+}
+
+#jenkins #pipeline-box .table-box tr td .duration {
+    z-index: 999;
 }
 
 /*---- END PIPELINE BOX ---- */
