@@ -459,8 +459,11 @@ DIV.textarea-handle {
 #add-item-panel form > .footer .btn-decorator {
     background: rgb(100,100,100,0.3);
 }
-#add-item-panel .j-item-options li:hover, .j-item-options li:focus {
+.j-item-options li:hover, .j-item-options li:focus {
     background: #141;
+}
+#jenkins .j-item-options li.active {
+    box-shadow: inset 999rem 0 #161
 }
 
 /*---- END Add New Items --======================================================================-- */
