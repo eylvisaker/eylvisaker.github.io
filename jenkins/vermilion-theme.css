@@ -76,6 +76,31 @@ body#jenkins {
     color: white;
 }
 
+/* ---- INPUT ---- */
+
+#jenkins #buildHistoryPage .build-search-row input {
+    background-color: #710202;
+    color: yellow;       
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #e34234 inset
+}
+
+#jenkins #search-box {
+    background-color: #710202;
+    color: yellow;
+    box-shadow: 0 0 5px #e34234 inset
+};
+
+#jenkins span.clear {
+    position: absolute;
+    top: 4px;
+    right: 100px;
+    color: white;
+}
+
+/* ---- END INPUT ---- */
+
 #jenkins #breadcrumbBar, #jenkins #footer-container, #jenkins .top-sticker-inner {
     background-color: e34234;
 }
@@ -227,12 +252,14 @@ body#jenkins {
 
 #jenkins #pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-start-time {
     border: none;
+    border-radius: 12px 0 0 12px;
+    background: rgba(0,0,0,0.3);
 }
 #jenkins .jobsTable .stage-start-time .date {
-    background: #111;
+    background: transparent
 }
 #jenkins .jobsTable .stage-start-time .time {
-    background: #000;
+    background: transparent
 }
 #jenkins .changeset-box.no-changes {
     text-shadow: #000 0 1px 1px, #000 0 1px 2px;
