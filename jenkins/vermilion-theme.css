@@ -139,7 +139,36 @@ DIV.textarea-handle {
 
 .bottom-sticker-edge
 
-/* ---- END INPUT ---- */
+/* ---- END INPUT -=============================================================================================================================--- */
+
+/*---- Alerts ---- */
+
+.alert-info {
+    background: rgb(217, 237, 247, 0.3);
+    color: #81c0df;
+}
+
+.alert-warning {
+    background-color: rgb(252, 248, 157, 0.3);
+    color: #dabd8b;
+}
+
+.alert-danger {
+    background-color: rgb(180, 50, 50, 0.3);
+    color: #f9a4a2;
+}
+/*---- End Alerts --===========================================================================================================================-- */
+
+/*--- Managing options ---- */
+
+.manage-option dl dd {
+    color: #888;
+}
+.manage-option:hover {
+    background: #141;
+}
+
+/*--- Managing options --========================================================================================================================-- */
 
 #jenkins #breadcrumbBar, #jenkins #footer-container, #jenkins .top-sticker-inner {
     background-color: e34234;
@@ -155,9 +184,6 @@ DIV.textarea-handle {
 
 #jenkins #breadcrumbs LI A, #jenkins #breadcrumbs LI A:hover, #jenkins #crumbs LI A:focus {
     color: white;
-}
-
-#jenkins #breadcrumbs LI A:hover {
 }
 
 #jenkins #breadcrumbs LI:hover {
