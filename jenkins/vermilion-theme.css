@@ -2,9 +2,41 @@
     background-color: #222222;
 }
 
+
 #jenkins body,table,form,td,th,p {
     font-family: Open Sans, sans-serif;
     color: #aaa;
+}
+
+body#jenkins {
+    font-family: Open Sans, sans-serif;
+    color: #aaa;
+}
+
+#jenkins #description {
+    margin-top: 14px;
+    margin-bottom: 40px;
+}
+
+#jenkins #tasks {
+    display: block;
+    padding: 4px 12px 4px;
+    border: 4px;
+    border-radius: 4px 24px 4px 24px;
+}
+
+#jenkins #tasks .task {
+    border-bottom: 1px solid #f36254;
+    margin-bottom: 0px;
+    padding: 2px 0;
+}
+
+#jenkins #tasks .task:last-child {
+    border-bottom: none;
+}
+
+#jenkins #tasks .task:hover {
+    background: #f36254;
 }
 
 #jenkins a:link {
@@ -16,12 +48,18 @@
     color: #d33224;
 }
 
+#jenkins a.model-link.inside {
+    font-weight: bold;
+}
 
 #jenkins .top-sticker-inner {
     background-color: #e34234;
     color: white;
 }
 #jenkins .top-sticker-inner a:link {
+    color: white;
+}
+#jenkins .top-sticker-inner a:visited {
     color: white;
 }
 
@@ -87,6 +125,35 @@
     background: transparent;
 }
 
+#jenkins table.stripped-odd tr:nth-child(2n) {
+    background: #333333;
+}
+
+#jenkins table.stripped-odd tr:nth-child(2n+1) {
+    background: transparent;
+}
+
+#jenkins table.stripped tr:hover, #jenkins table.stripped-even tr:hover, #jenkins table.stripped-odd tr:hover {
+    background: #444444 !important;
+}
+
 #jenkins #visible-am-button {
     color: white;
 }
+
+
+/*---- TASKS ---- */
+#jenkins #tasks {
+    background: #e34234;
+}
+
+#jenkins #tasks a:link {
+    color: white;
+    font-weight: bold;
+}
+
+#jenkins #tasks a:visited {
+    color: white;
+}
+
+/*---- END TASKS ---- */
