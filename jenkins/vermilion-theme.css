@@ -63,12 +63,25 @@ body#jenkins {
     color: white;
 }
 
+#jenkins footer {
+    background: #222;
+    border: none;
+}
+
 #jenkins .bigtable th {
     background-color: #e34234;
 }
 
 #jenkins table.sortable a.sortheader {
     color: white;
+}
+
+#jenkins #breadcrumbBar, #jenkins #footer-container, #jenkins .top-sticker-inner {
+    background-color: e34234;
+}
+
+#jenkins #breadcrumbBar>div:first-of-type {
+    background: #222;
 }
 
 #jenkins #breadcrumbs {
@@ -106,6 +119,12 @@ body#jenkins {
     color: white;
 }
 
+#jenkins .pane-footer {
+    background-color: #333;
+    border-top: none;
+    border-radius: 0 0 22px 4px;
+}
+
 #jenkins .tabBar [type="radio"]:checked ~a  {
     border: 1px solid #e34234;
     border-bottom: none;
@@ -121,7 +140,11 @@ body#jenkins {
     border-bottom: 1px solid #e34234;
 }
 
-#jenkins table.stripped-odd tr:nth-child(2n+1) {
+#jenkins table.stripped tr:nth-child(2n) {
+    background: #333333;
+}
+
+#jenkins table.stripped tr:nth-child(2n+1) {
     background: transparent;
 }
 
@@ -157,3 +180,16 @@ body#jenkins {
 }
 
 /*---- END TASKS ---- */
+
+
+/*---- RSS LINKS --- */
+
+.build-rss-links a:nth-child(2n+1)::before {
+    content: "\A";
+    white-space: pre;
+    width: 4px;
+    height: 10px;
+    display: block;
+}
+
+/*---- END RSS LINKS --- */
