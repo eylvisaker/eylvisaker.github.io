@@ -87,6 +87,7 @@ body#jenkins {
     color: white;
 }
 
+#add-item-panel input,
 .setting-input {
     background-color: #710202;
     color: yellow;
@@ -123,9 +124,6 @@ DIV.textarea-handle {
     background: transparent;
     padding: 10px 45px;
 }
-
-
-.bottom-sticker-edge
 
 /* ---- END INPUT -=============================================================================================================================--- */
 
@@ -209,8 +207,7 @@ DIV.textarea-handle {
 #jenkins #breadcrumbs LI:hover {
     border: 1px solid white;
     border-bottom: #e34234;
-    border-radius: 4px 4px 0 0;
-    
+    border-radius: 4px 4px 0 0;    
 }
 
 #jenkins #breadcrumbs LI:hover, #jenkins A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
@@ -431,3 +428,39 @@ DIV.textarea-handle {
 /*---- END PIPELINE BOX ---- */
 
 
+/*---- Add New Items --======================================================================-- */
+
+
+#add-item-panel form > .header {
+    background: #333;
+    border-color: #777;
+}
+
+#add-item-panel .categories {
+    background: #333;
+    border-color: #777;
+}
+
+#add-item-panel .j-item-options li label {
+    color: white;
+    border-color: #777;
+}
+
+#add-item-panel .item-copy{
+    background: #333;
+    border-color: #777;
+}
+
+#add-item-panel form > .footer {
+    background: #333;
+    border-color: #777;
+}
+
+#add-item-panel form > .footer .btn-decorator {
+    background: rgb(100,100,100,0.3);
+}
+#add-item-panel .j-item-options li:hover, .j-item-options li:focus {
+    background: #141;
+}
+
+/*---- END Add New Items --======================================================================-- */
