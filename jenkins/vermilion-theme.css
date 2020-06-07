@@ -88,6 +88,7 @@ body#jenkins {
 }
 
 #add-item-panel input,
+#jenkins .jenkins-config table td select:not(.select-ajax-pending),
 .setting-input {
     background-color: #710202;
     color: yellow;
@@ -467,3 +468,33 @@ DIV.textarea-handle {
 }
 
 /*---- END Add New Items --======================================================================-- */
+
+
+/*---- Project Config --======================================================================-- */
+
+
+#jenkins .jenkins-config-widgets {
+    background: #e34234
+}
+
+#jenkins .jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab {
+    color: white;
+    border-radius: 4px;
+}
+
+#jenkins .jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab:hover {
+    color: white;
+    background: #rootf36254;
+}
+
+#jenkins .jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab.active {
+    color: #e34234;
+}
+
+#jenkins form.jenkins-config {
+  background: #333;
+}
+
+
+
+/*---- END Project Config --======================================================================-- */
