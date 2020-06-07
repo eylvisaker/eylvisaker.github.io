@@ -76,6 +76,71 @@ body#jenkins {
     color: white;
 }
 
+/* ---- INPUT ---- */
+
+#jenkins #buildHistoryPage .build-search-row input {
+    background-color: #710202;
+    color: yellow;       
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #e34234 inset
+}
+
+#jenkins #search-box {
+    background-color: #710202;
+    color: yellow;
+    box-shadow: 0 0 5px #e34234 inset
+};
+
+#jenkins span.clear {
+    position: absolute;
+    top: 4px;
+    right: 100px;
+    color: white;
+}
+
+.setting-input {
+    background-color: #710202;
+    color: yellow;
+    box-shadow: 0 0 5px #e34234 inset
+}
+
+DIV.textarea-handle {
+    background-color: #710202;
+    border: none;
+}
+
+#jenkins .yui-button .btn, #jenkins .yui-button button {
+    background: #427142;
+    color: white;
+    border: #028102 solid 1px;
+    border-radius: 4px;
+}
+#jenkins .yui-button .btn:hover, #jenkins .yui-button button:hover {
+    background: #029102;
+    color: white;
+    border-radius: 4px;
+}
+
+#bottom-sticker {
+    background: #333;
+    border-radius: 0 0 24px 24px;
+}
+
+.bottom-sticker-edge {
+    background-image: linear-gradient(#222, #333);    
+}
+
+.bottom-sticker-inner {
+    background: transparent;
+    padding: 10px 45px;
+}
+
+
+.bottom-sticker-edge
+
+/* ---- END INPUT ---- */
+
 #jenkins #breadcrumbBar, #jenkins #footer-container, #jenkins .top-sticker-inner {
     background-color: e34234;
 }
@@ -164,32 +229,6 @@ body#jenkins {
     color: white;
 }
 
-/*---- Alerts ---- */
-
-.alert-info {
-    background: rgb(217, 237, 247, 0.3);
-    color: #81c0df;
-}
-
-.alert-warning {
-    background-color: rgb(252, 248, 157, 0.3);
-    color: #dabd8b;
-}
-
-.alert-danger {
-    background-color: rgb(180, 50, 50, 0.3);
-    color: #f9a4a2;
-}
-/*---- End Alerts ---- */
-
-/*--- Managing options ---- */
-
-.manage-option dl dd {
-    color: #888;
-}
-.manage-option:hover {
-    background: #141;
-}
 
 /*---- TASKS ---- */
 #jenkins #tasks {
@@ -253,12 +292,14 @@ body#jenkins {
 
 #jenkins #pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-start-time {
     border: none;
+    border-radius: 12px 0 0 12px;
+    background: rgba(0,0,0,0.3);
 }
 #jenkins .jobsTable .stage-start-time .date {
-    background: #111;
+    background: transparent
 }
 #jenkins .jobsTable .stage-start-time .time {
-    background: #000;
+    background: transparent
 }
 #jenkins .changeset-box.no-changes {
     text-shadow: #000 0 1px 1px, #000 0 1px 2px;
