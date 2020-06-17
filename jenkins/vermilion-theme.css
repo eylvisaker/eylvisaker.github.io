@@ -403,6 +403,10 @@ DIV.textarea-handle {
     color: white;
 }
 
+#jenkins .pane-header a:visited {
+    color: white;
+}
+
 #jenkins .pane-content {
     padding: 0 12px 4px;
 }
