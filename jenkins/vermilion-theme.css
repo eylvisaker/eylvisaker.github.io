@@ -575,7 +575,8 @@ DIV.textarea-handle {
     background: #333;
 }
 
-#jenkins .jenkins-config table td .help {
+#jenkins .jenkins-config table td .help,
+#jenkins .help {
     background: #443300;
     border-radius: 6px;
 }
