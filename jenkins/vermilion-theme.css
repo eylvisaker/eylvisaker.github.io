@@ -5,19 +5,25 @@
     font-display: swap;
     src: local('Germania One'), local('GermaniaOne-Regular'), url(https://fonts.gstatic.com/s/germaniaone/v7/Fh4yPjrqIyv2ucM2qzBjeS3uywhP.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  
+}
+
 #jenkins {
     background-color: #222222;
 }
 
-
-#jenkins body,table,form,td,th,p {
+#jenkins body,
+table,
+form,
+td,
+th,
+p {
     font-family: Open Sans, sans-serif;
     color: #aaa;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: 'Germania One';
 }
 
@@ -52,9 +58,11 @@ body#jenkins {
     background-color: #e34234;
     color: white;
 }
+
 #jenkins .top-sticker-inner a:link {
     color: white;
 }
+
 #jenkins .top-sticker-inner a:visited {
     color: white;
 }
@@ -64,11 +72,12 @@ body#jenkins {
     border: none;
 }
 
+
 /* ---- INPUT ---- */
 
 #jenkins #buildHistoryPage .build-search-row input {
     background-color: #710202;
-    color: yellow;       
+    color: yellow;
     border: 1px solid white;
     border-radius: 4px;
     : 0 0 5px #e34234 inset
@@ -78,8 +87,9 @@ body#jenkins {
     background-color: #710202;
     color: yellow;
     box-shadow: 0 0 5px #e34234 inset
-};
+}
 
+;
 #jenkins span.clear {
     position: absolute;
     top: 4px;
@@ -100,17 +110,36 @@ DIV.textarea-handle {
     border: none;
 }
 
-#jenkins .yui-button .btn, #jenkins .yui-button button {
+
+/* ----- YUI controls ------------------------------------------------------------------------------------------------------------------------ */
+
+#jenkins .yuimenu .bd {
+    background: #444;
+    border: 1px outset #444;
+    box-shadow: 0px 3px 10px #222;
+}
+
+.yui-skin-sam .yuimenuitemlabel {
+    color: white;
+}
+
+#jenkins .yui-button .btn,
+#jenkins .yui-button button {
     background: #427142;
     color: white;
     border: #028102 solid 1px;
     border-radius: 4px;
 }
-#jenkins .yui-button .btn:hover, #jenkins .yui-button button:hover {
+
+#jenkins .yui-button .btn:hover,
+#jenkins .yui-button button:hover {
     background: #029102;
     color: white;
     border-radius: 4px;
 }
+
+
+/* ---- END YUI Controls -=============================================================================================================================--- */
 
 #bottom-sticker {
     background: #333;
@@ -118,7 +147,7 @@ DIV.textarea-handle {
 }
 
 .bottom-sticker-edge {
-    background-image: linear-gradient(#222, #333);    
+    background-image: linear-gradient(#222, #333);
 }
 
 .bottom-sticker-inner {
@@ -126,7 +155,9 @@ DIV.textarea-handle {
     padding: 10px 45px;
 }
 
+
 /* ---- END INPUT -=============================================================================================================================--- */
+
 
 /*---- Alerts ---- */
 
@@ -151,7 +182,7 @@ DIV.textarea-handle {
     left: 10%;
     right: 10%;
     border: 4px ridge #444;
-    box-shadow: 0 0 25px #e34234 ;
+    box-shadow: 0 0 25px #e34234;
 }
 
 #jenkins #visible-am-container div#visible-am-list p:last-child a {
@@ -166,30 +197,36 @@ DIV.textarea-handle {
 #jenkins #visible-am-container div#visible-am-list p:last-child a:hover {
     background: #f36254;
 }
-    
+
 
 /*---- End Alerts --===========================================================================================================================-- */
+
 
 /*--- Managing options ---- */
 
 .manage-option dl dd {
     color: #888;
 }
+
 .manage-option:hover {
     background: #141;
 }
 
+
 /*--- End Managing options --========================================================================================================================-- */
+
 
 /*--- Breadcrumbs ----- */
 
 #jenkins #breadcrumbs LI {
-    background-color: #e34234; 
+    background-color: #e34234;
     border: 1px solid transparent;
     border-radius: 4px 4px 0 0;
 }
 
-#jenkins #breadcrumbBar, #jenkins #footer-container, #jenkins .top-sticker-inner {
+#jenkins #breadcrumbBar,
+#jenkins #footer-container,
+#jenkins .top-sticker-inner {
     background-color: e34234;
 }
 
@@ -201,26 +238,31 @@ DIV.textarea-handle {
     border-bottom: none;
 }
 
-#jenkins #breadcrumbs LI A, #jenkins #breadcrumbs LI A:hover, #jenkins #crumbs LI A:focus {
+#jenkins #breadcrumbs LI A,
+#jenkins #breadcrumbs LI A:hover,
+#jenkins #crumbs LI A:focus {
     color: white;
 }
 
 #jenkins #breadcrumbs LI:hover {
     border: 1px solid white;
     border-bottom: #e34234;
-    border-radius: 4px 4px 0 0;    
+    border-radius: 4px 4px 0 0;
 }
 
-#jenkins #breadcrumbs LI:hover, #jenkins A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
+#jenkins #breadcrumbs LI:hover,
+#jenkins A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
     background-color: transparent;
 }
 
+
 /*--- End Breadcrumbs --================================================================-- */
+
 
 /*--- Tables --================================================================-- */
 
-
-#jenkins .bigtable tr.header th, #jenkins .bigtable th {
+#jenkins .bigtable tr.header th,
+#jenkins .bigtable th {
     background: #e34234;
     color: white;
 }
@@ -230,18 +272,18 @@ DIV.textarea-handle {
 }
 
 #jenkins .bigtable tr.header th:first-child {
-    border-radius: 0; 
+    border-radius: 0;
 }
 
 #jenkins .bigtable tr.header th:last-child {
-    border-radius: 2px 30px 0 0; 
+    border-radius: 2px 30px 0 0;
 }
 
 #jenkins table.sortable a.sortheader {
     color: white;
 }
 
-#jenkins .tabBar [type="radio"]:checked ~a  {
+#jenkins .tabBar [type="radio"]:checked~a {
     border: 1px solid #e34234;
     border-bottom: none;
     background-color: #e34234;
@@ -256,7 +298,9 @@ DIV.textarea-handle {
     border-bottom: 1px solid #e34234;
 }
 
-#jenkins table.stripped tr, #jenkins table.stripped-odd tr, #jenkins table.stripped-even tr {
+#jenkins table.stripped tr,
+#jenkins table.stripped-odd tr,
+#jenkins table.stripped-even tr {
     background: transparent;
 }
 
@@ -264,7 +308,6 @@ DIV.textarea-handle {
 #jenkins #projectstatus tbody tr:last-child td:first-child {
     border-radius: 0 0 0 24px;
 }
-
 
 #jenkins table.stripped tr:nth-child(2n) td {
     background: #333333;
@@ -282,13 +325,16 @@ DIV.textarea-handle {
     background: #222222;
 }
 
-#jenkins table.stripped tr:hover, #jenkins table.stripped-even tr:hover, #jenkins table.stripped-odd tr:hover {
+#jenkins table.stripped tr:hover,
+#jenkins table.stripped-even tr:hover,
+#jenkins table.stripped-odd tr:hover {
     background: #444444 !important;
 }
 
 #jenkins #visible-am-button {
     color: white;
 }
+
 
 /*--- END Tables --================================================================-- */
 
@@ -315,8 +361,8 @@ DIV.textarea-handle {
 #jenkins #tasks .task:hover {
     background: #f36254;
 }
-#jenkins #tasks {
-}
+
+#jenkins #tasks {}
 
 #jenkins #tasks a:link {
     color: white;
@@ -327,7 +373,9 @@ DIV.textarea-handle {
     color: white;
 }
 
+
 /*---- END TASKS -==========================================================================--- */
+
 
 /*---- Left Pane Frames --======================================================================-- */
 
@@ -337,7 +385,8 @@ DIV.textarea-handle {
     color: white;
 }
 
-#jenkins .pane-frame:hover, #jenkins #side-panel .pane-frame.mouseover {
+#jenkins .pane-frame:hover,
+#jenkins #side-panel .pane-frame.mouseover {
     border: 2px solid #e34234;
     border-radius: 4px 24px 4px 24px;
     color: white;
@@ -364,14 +413,16 @@ DIV.textarea-handle {
     border-radius: 0 0 2px 22px;
 }
 
-#jenkins #buildHistoryPageNav.mouseOverSidePanel, 
-#jenkins #buildHistoryPageNav.mouseOverSidePanelBuildHistory, 
+#jenkins #buildHistoryPageNav.mouseOverSidePanel,
+#jenkins #buildHistoryPageNav.mouseOverSidePanelBuildHistory,
 #jenkins #buildHistoryPageNav:hover {
     border-color: #e34234 !important;
     border-left: blue;
 }
 
+
 /*---- END Left Pane Frames --======================================================================-- */
+
 
 /*---- RSS LINKS --- */
 
@@ -383,19 +434,23 @@ DIV.textarea-handle {
     display: block;
 }
 
+
 /*---- END RSS LINKS --- */
+
 
 /*---- PIPELINE BOX ---- */
 
 #jenkins #pipeline-box .table-box tr td {
     text-shadow: #000 0 1px 1px, #000 0 1px 2px;
 }
+
 #jenkins .jobsTable .stage-cell.FAILED .stage-wrapper {
     text-shadow: #000 0 1px 1px, #000 0 1px 2px;
 }
+
 #jenkins #pipeline-box .table-box .table-viewPort tr.totals .cell-color {
     color: white;
-    text-shadow: #000 0 1px 1px, #000 0 1px 2px;    
+    text-shadow: #000 0 1px 1px, #000 0 1px 2px;
 }
 
 #jenkins #pipeline-box .table-box .table-viewPort .stage-wrapper {
@@ -403,15 +458,17 @@ DIV.textarea-handle {
 }
 
 #jenkins #pipeline-box .table-box {
-    color: #fff;    
+    color: #fff;
 }
 
 #jenkins .jobsTable .jobName .badge {
     background: #e34234;
 }
+
 #jenkins .jobsTable .jobName .badge a:link {
     color: white;
 }
+
 #jenkins .jobsTable .jobName .badge a:visited {
     color: white;
 }
@@ -419,14 +476,17 @@ DIV.textarea-handle {
 #jenkins #pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-start-time {
     border: none;
     border-radius: 12px 0 0 12px;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
 }
+
 #jenkins .jobsTable .stage-start-time .date {
     background: transparent
 }
+
 #jenkins .jobsTable .stage-start-time .time {
     background: transparent
 }
+
 #jenkins .changeset-box.no-changes {
     text-shadow: #000 0 1px 1px, #000 0 1px 2px;
 }
@@ -439,13 +499,13 @@ DIV.textarea-handle {
     z-index: 999;
 }
 
+
 /*---- END PIPELINE BOX ---- */
 
 
 /*---- Add New Items --======================================================================-- */
 
-
-#add-item-panel form > .header {
+#add-item-panel form>.header {
     background: #333;
     border-color: #777;
 }
@@ -460,31 +520,34 @@ DIV.textarea-handle {
     border-color: #777;
 }
 
-#add-item-panel .item-copy{
+#add-item-panel .item-copy {
     background: #333;
     border-color: #777;
 }
 
-#add-item-panel form > .footer {
+#add-item-panel form>.footer {
     background: #333;
     border-color: #777;
 }
 
-#add-item-panel form > .footer .btn-decorator {
-    background: rgb(100,100,100,0.3);
+#add-item-panel form>.footer .btn-decorator {
+    background: rgb(100, 100, 100, 0.3);
 }
-.j-item-options li:hover, .j-item-options li:focus {
+
+.j-item-options li:hover,
+.j-item-options li:focus {
     background: #141;
 }
+
 #jenkins .j-item-options li.active {
     box-shadow: inset 999rem 0 #161
 }
+
 
 /*---- END Add New Items --======================================================================-- */
 
 
 /*---- Project Config --======================================================================-- */
-
 
 #jenkins .jenkins-config-widgets {
     background: #e34234
@@ -505,9 +568,8 @@ DIV.textarea-handle {
 }
 
 #jenkins form.jenkins-config {
-  background: #333;
+    background: #333;
 }
-
 
 
 /*---- END Project Config --======================================================================-- */
