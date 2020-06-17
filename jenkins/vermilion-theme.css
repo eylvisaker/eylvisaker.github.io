@@ -564,7 +564,7 @@ DIV.textarea-handle {
 
 #jenkins .jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab:hover {
     color: white;
-    background: #rootf36254;
+    background: #f36254;
 }
 
 #jenkins .jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab.active {
@@ -573,6 +573,11 @@ DIV.textarea-handle {
 
 #jenkins form.jenkins-config {
     background: #333;
+}
+
+#jenkins .jenkins-config table td .help {
+    background: #443300;
+    border-radius: 6px;
 }
 
 
