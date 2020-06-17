@@ -220,8 +220,13 @@ DIV.textarea-handle {
 /*--- Tables --================================================================-- */
 
 
-#jenkins .bigtable tr.header th {
+#jenkins .bigtable tr.header th, #jenkins .bigtable th {
     background: #e34234;
+    color: white;
+}
+
+#jenkins table.sortable span.sortarrow {
+    color: white;
 }
 
 #jenkins .bigtable tr.header th:first-child {
