@@ -89,7 +89,10 @@ body#jenkins {
     box-shadow: 0 0 5px #e34234 inset
 }
 
-;
+#jenkins #search-box.main-search__input {
+    border: 3px solid #570101;
+}
+
 #jenkins span.clear {
     position: absolute;
     top: 4px;
@@ -226,8 +229,9 @@ DIV.textarea-handle {
 
 #jenkins #breadcrumbBar,
 #jenkins #footer-container,
-#jenkins .top-sticker-inner {
-    background-color: e34234;
+#jenkins .top-sticker-inner,
+#jenkins .breadcrumbs__wrapper {
+    background-color: #e34234;
 }
 
 #jenkins #breadcrumbBar>div:first-of-type {
