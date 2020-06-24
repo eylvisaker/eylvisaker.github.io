@@ -587,3 +587,39 @@ DIV.textarea-handle {
 
 
 /*---- END Project Config --======================================================================-- */
+
+
+/*---- Log  --======================================================================-- */
+
+#jenkins .cbwf-stage-logs .log-details {
+    background: #4b4b6b;
+    box-shadow: none;
+}
+
+#jenkins .cbwf-stage-logs .log-details .console-output {
+    color: #ccc;
+}
+
+#jenkins .cbwf-dialog .header {
+    background: #2b2b2b;
+}
+
+#jenkins .cbwf-dialog {
+    background: #2b2b2b;
+    border: 4px outset #353535;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 0 200px, rgb(50, 0, 0) 0 0 15px;
+}
+
+#jenkins .cbwf-stage-logs .node-log-frame.FAILED .node-name {
+    background-color: #f24d4d;
+    color: white;
+}
+
+#jenkins .cbwf-stage-logs .node-log-frame.FAILED .node-name a:link,
+#jenkins .cbwf-stage-logs .node-log-frame.FAILED .node-name a:hover,
+#jenkins .cbwf-stage-logs .node-log-frame.FAILED .node-name a:visited {
+    color: white;
+}
+
+
+/*---- END Log  --======================================================================-- */
