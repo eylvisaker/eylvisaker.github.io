@@ -55,7 +55,7 @@ body#jenkins {
 }
 
 #jenkins .top-sticker-inner {
-    background-color: #e34234;
+    background-color: #3442e3;
     color: white;
 }
 
@@ -76,7 +76,7 @@ body#jenkins {
 /* ---- INPUT ---- */
 
 #jenkins #buildHistoryPage .build-search-row input {
-    background-color: #710202;
+    background-color: #020271;
     color: yellow;
     border: 1px solid white;
     border-radius: 4px;
@@ -84,13 +84,13 @@ body#jenkins {
 }
 
 #jenkins #search-box {
-    background-color: #710202;
+    background-color: #020271;
     color: yellow;
-    box-shadow: 0 0 5px #e34234 inset
+    box-shadow: 0 0 5px #3442e3 inset
 }
 
 #jenkins #search-box.main-search__input {
-    border: 3px solid #570101;
+    border: 3px solid #010157;
 }
 
 #jenkins span.clear {
@@ -103,13 +103,13 @@ body#jenkins {
 #add-item-panel input,
 #jenkins .jenkins-config table td select:not(.select-ajax-pending),
 .setting-input {
-    background-color: #710202;
+    background-color: #020271;
     color: yellow;
     box-shadow: 0 0 5px #e34234 inset
 }
 
 DIV.textarea-handle {
-    background-color: #710202;
+    background-color: #020271;
     border: none;
 }
 
