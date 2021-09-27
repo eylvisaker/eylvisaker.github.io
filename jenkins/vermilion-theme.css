@@ -105,7 +105,7 @@ body#jenkins {
 .setting-input {
     background-color: #020271;
     color: yellow;
-    box-shadow: 0 0 5px #e34234 inset
+    box-shadow: 0 0 5px #3442e3 inset
 }
 
 DIV.textarea-handle {
@@ -299,7 +299,7 @@ DIV.textarea-handle {
 }
 
 #jenkins #projectstatus .header {
-    border-bottom: 1px solid #e34234;
+    border-bottom: 1px solid #3442e3;
 }
 
 #jenkins table.stripped tr,
