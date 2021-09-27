@@ -267,7 +267,7 @@ DIV.textarea-handle {
 
 #jenkins .bigtable tr.header th,
 #jenkins .bigtable th {
-    background: #e34234;
+    background: #3442e3;
     color: white;
 }
 
@@ -288,14 +288,14 @@ DIV.textarea-handle {
 }
 
 #jenkins .tabBar [type="radio"]:checked~a {
-    border: 1px solid #e34234;
+    border: 1px solid #3442e3;
     border-bottom: none;
-    background-color: #e34234;
+    background-color: #3442e3;
     color: white;
 }
 
 #jenkins .tabBar .tab a.addTab {
-    border: 1px solid #e34234;
+    border: 1px solid #3442e3;
 }
 
 #jenkins #projectstatus .header {
